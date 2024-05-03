@@ -3,7 +3,6 @@ import Employee from './components/Employee';
 import { useState } from 'react';
 import {v4 as uuidv4} from 'uuid';
 
-
 function App() {
   const [role, setRole] = useState('dev');
   const showEmployees = true;
@@ -12,12 +11,12 @@ function App() {
       {
         name: "David", 
         role: "developer", 
-        img: "https://images.pexels.com/photos/1722198/pexels-photo-1722198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        img: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=800" 
       },
       {
         name: "Kennedy", 
         role: "Nurse", 
-        img: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        img: "https://images.pexels.com/photos/4491475/pexels-photo-4491475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
       },
       {
         name: "Jackson", 
@@ -27,7 +26,7 @@ function App() {
       {
         name: "Deuce", 
         role: "Dog", 
-        img: "https://images.pexels.com/photos/1722198/pexels-photo-1722198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        img: "https://images.pexels.com/photos/942260/pexels-photo-942260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
       },
       {
         name: "Bob", 
@@ -61,6 +60,7 @@ function App() {
        :
        <p>you cant see the employees</p>
       }
+
     </div>
   );
 }
