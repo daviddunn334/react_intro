@@ -11,7 +11,7 @@ function App() {
       {
         name: "David", 
         role: "developer", 
-        img: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=800" 
+        img: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=800",
       },
       {
         name: "Kennedy", 
@@ -31,7 +31,7 @@ function App() {
       {
         name: "Bob", 
         role: "Chef", 
-        img: "https://images.pexels.com/photos/1722198/pexels-photo-1722198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        img: "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&w=800" 
       }
     ]
   )
